@@ -183,8 +183,8 @@ WriteMakefile(
 		resources=> {
 			repository =>{
 				type => "git",
-				url => "git://github.com/drclaw1394/perl-socket-more.git",
-				web => "http://github.com/drclaw1394/perl-socket-more",
+				url => "git://github.com/drclaw1394/perl-socket-more-constants.git",
+				web => "http://github.com/drclaw1394/perl-socket-more-constants",
 			}
 		}
 	}
