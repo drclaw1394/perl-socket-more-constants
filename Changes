@@ -1,0 +1,6 @@
+Revision history for Perl extension Socket::More::Constants.
+
+0.01  Sat Oct  7 19:12:42 2023
+	- original version; created by h2xs 1.23 with options
+		--name Socket::More::Constants -X -P
+

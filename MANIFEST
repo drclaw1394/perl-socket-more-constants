@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Socket-More-Constants.t
+lib/Socket/More/Constants.pm

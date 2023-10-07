@@ -1,0 +1,18 @@
+=head1 TITLE
+
+Socket::More::Constants - Networking constants for your system
+
+=head1 SYNOPSIS
+
+  # use this package directly
+  use  Socket::More::Constants;
+
+
+  # or via the Socket::More wrapper
+  use Socket::More;
+
+=head1 DESCRIPTION
+
+Simply exports all the configured networking constants from L<Socket>, without
+the runtime overhead of loading L<Socket>.
+
