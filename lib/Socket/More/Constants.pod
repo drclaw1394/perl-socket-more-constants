@@ -18,11 +18,12 @@ the runtime overhead of loading L<Socket>.
 
 =head1 AUTHOR
 
-Ruben Westerberg, E<lt>drclaw@mac.com<gt>
+Ruben Westerberg, E<lt>drclaw@mac.comE<gt>
 
 =head1 REPOSITORTY and BUGS
 
-Please report any bugs via git hub: L<http://github.com/drclaw1394/perl-socket-more-constants>
+Please report any bugs via git hub:
+L<http://github.com/drclaw1394/perl-socket-more-constants>
 
 
 =head1 COPYRIGHT AND LICENSE
@@ -39,5 +40,3 @@ INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
 FITNESS FOR A PARTICULAR PURPOSE.
 
 =cut
-
-
