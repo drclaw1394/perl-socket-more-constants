@@ -1,6 +1,7 @@
-use v5.36;
+use strict;
+use warnings;
 package Socket::More::Constants;
-our $VERSION='v0.1.0';
+our $VERSION='v0.1.1';
 my %table;
 BEGIN {%table=(
  AF_APPLETALK => 16,
@@ -17,7 +18,6 @@ BEGIN {%table=(
  AF_ISO => 7,
  AF_LAT => 14,
  AF_LINK => 18,
- AF_LOCAL => 1,
  AF_MAX => 41,
  AF_NS => 6,
  AF_OSI => 7,
@@ -56,7 +56,6 @@ BEGIN {%table=(
  IPPROTO_ESP => 50,
  IPPROTO_GRE => 47,
  IPPROTO_ICMP => 1,
- IPPROTO_ICMPV6 => 58,
  IPPROTO_IGMP => 2,
  IPPROTO_IP => 0,
  IPPROTO_IPV6 => 41,
@@ -115,7 +114,6 @@ BEGIN {%table=(
  PF_KEY => 29,
  PF_LAT => 14,
  PF_LINK => 18,
- PF_LOCAL => 1,
  PF_MAX => 41,
  PF_NS => 6,
  PF_OSI => 7,
@@ -157,7 +155,6 @@ BEGIN {%table=(
  SO_TYPE => 4104,
  SO_USELOOPBACK => 64,
  TCP_CONNECTIONTIMEOUT => 32,
- TCP_FASTOPEN => 261,
  TCP_KEEPALIVE => 16,
  TCP_KEEPCNT => 258,
  TCP_KEEPINTVL => 257,
@@ -167,5 +164,5 @@ BEGIN {%table=(
  TCP_NOPUSH => 4,
 );}
 use constant::more %table;
-use Export::These keys %table;
+use Export::These export_pass=>[], keys %table;
 1;
