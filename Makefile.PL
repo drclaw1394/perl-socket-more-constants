@@ -157,7 +157,7 @@ close $fh;
 # the contents of the Makefile that is written.
 WriteMakefile(
 	NAME              => 'Socket::More::Constants',
-	VERSION_FROM      => 'lib/Socket/More/Constants.pm', # finds $VERSION, requires EU::MM from perl >= 5.5
+	VERSION      => 'v0.1.2', # finds $VERSION, requires EU::MM from perl >= 5.5
 	PREREQ_PM         => {
     "Export::These"=>"v0.2.1",
     "constant::more"=>"v0.3.0"

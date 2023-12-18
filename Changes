@@ -1,6 +1,9 @@
 Revision history for Perl extension Socket::More::Constants.
 
-v0.1.2 2023-12-18
+v0.1.2 2023-12-19
+  - re-upload to cpan. indexed error?
+
+v0.1.1 2023-12-18
   -[fixes]
     - Reduce min Perl verion to v5.24.0
     - Makefile.PL using correct version of deps 
